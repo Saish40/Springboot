@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('GIT checkout') {
             steps {
-
+                git 'https://github.com/Saish40/Springboot.git'
             }
         }
         stage('Validate') {
